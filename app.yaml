@@ -1,2 +1,5 @@
 runtime: nodejs14
 service: backend
+
+vpc_access_connector:
+  name: projects/submission-mgce-chiapingky/locations/asia-southeast2/connectors/storage-object-access
