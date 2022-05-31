@@ -4,3 +4,6 @@ service: frontend
 handlers:
   - url: /assets
     static_dir: assets
+
+vpc_access_connector:
+  name: projects/submission-mgce-chiapingky/locations/asia-southeast2/connectors/storage-object-access
